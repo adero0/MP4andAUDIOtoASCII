@@ -1,42 +1,41 @@
-# 🎥 MP4andAUDIOtoASCII
+# MP4andAUDIOtoASCII
 
 **MP4andAUDIOtoASCII** is a fun mini project of mine that extracts frames from a video file (and optionally syncs with an audio track) to render a **terminal-based ASCII art video**.  
 Originally made for just [bad apple!!](https://archive.org/details/TouhouBadApple), but now supports color.
 
 ---
 
-## ✨ Features (Planned & Implemented)
+## Features (Planned & Implemented)
 
-### ✅ Core Functionality
-- 🎬 **Frame Extraction** – Converts video frames to ASCII representation.
-- 🔊 **Optional Audio Path** – Accepts an external audio file to sync playback.
-- 🖥️ **Terminal Playback** – Displays ASCII video in real-time in your terminal.
-
-### 🚧 In Progress
-- ⏯️ **Video Progress Bar** – Visual indicator of playback position.
-- ⏪ **Playback Controls** – Keyboard shortcuts for:
+### Core Functionality
+- **Frame Extraction** – Converts video frames to ASCII representation.
+- **Optional Audio Path** – Accepts an external audio file to sync playback.
+- **Terminal Playback** – Displays ASCII video in real-time in your terminal.
+- **Video Progress Bar** – Visual indicator of playback position.
+- **Playback Controls** – Keyboard shortcuts for:
   - `←` Rewind 10 seconds  
   - `→` Skip forward 10 seconds  
   - `Space` Pause/Play
-- 💾 **Export to MP4** – Render ASCII frames into an `.mp4` video with optional audio overlay.
+- **Preprocessing** - The video gets preprocessed and saved as a .txt to allow for smoother animation.
 
 ---
 
-## 🧩 Requirements
+## Requirements
   
 - Python 3.8+
 - Libraries:
   - `opencv-python`
   - `pygame`
+  - `keyboard`
 
 
-## ⚙️ To Run the Program do the following
+## To Run the Program do the following
 
 1. **Download/Copy the source code.**  
 2. **Save it as** `<your_name>.py`  
 3. **Install required dependencies:**
    ```bash
-   pip install opencv-python pygame
+   opencv-python pygame keyboard
 4. **Download your video of choice(and optionally audio path)**
 5. **Put all the files in one directory like so:**
    
