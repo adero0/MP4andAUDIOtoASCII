@@ -5,7 +5,7 @@ Originally made for just [bad apple!!](https://archive.org/details/TouhouBadAppl
 
 ---
 
-## Features (Planned & Implemented)
+## Features
 
 ### Core Functionality
 - **Frame Extraction** – Converts video frames to ASCII representation.
