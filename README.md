@@ -37,7 +37,7 @@ Originally made for just [bad apple!!](https://archive.org/details/TouhouBadAppl
 2. **Save it as** `<your_name>.py`  
 3. **Install required dependencies:**
    ```bash
-   opencv-python pygame keyboard
+   pip install opencv-python pygame keyboard
 4. **Download your video of choice(and optionally audio path)**
 5. **Put all the files in one directory like so:**
    
